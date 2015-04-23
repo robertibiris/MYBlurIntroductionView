@@ -35,6 +35,7 @@
     self.BackgroundImageView = [[UIImageView alloc] initWithFrame:self.frame];
     self.BackgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.BackgroundImageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleHeight;
+    self.BackgroundImageView.clipsToBounds = YES;
     [self addSubview:self.BackgroundImageView];
     
     //Master Scroll View
